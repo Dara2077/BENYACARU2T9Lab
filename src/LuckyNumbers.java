@@ -32,7 +32,7 @@ public class LuckyNumbers
     public String getLuckyNumbers() {
         String regBall = "";
         int i = 0;
-        while (i < 5){
+        while (i < 5) {
             regBall += " " + randomIntegerBetween(1, 65);
             i++;
         }
